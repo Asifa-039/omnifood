@@ -1,0 +1,963 @@
+#web {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 70px;
+
+
+
+
+    #omni {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: #fdf2e9;
+
+
+
+        .food {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding: 0px 0px;
+
+
+            .mam {
+                height: 20px;
+                padding-right: 700px;
+                ;
+            }
+
+            #mat {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 20x;
+                padding: 20px 50px;
+                font-size: 20px;
+
+                #mat1 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10x;
+                    padding: 10px 10px;
+                    font-size: 20px;
+
+                }
+
+                #button {
+                    background-color: yellow;
+                }
+            }
+        }
+
+        #jam {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 150px;
+            gap: 10px;
+
+            #sam {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: left;
+                gap: 20px;
+                padding: 20px 100px;
+
+
+                #text-1 {
+                    font-size: 50px;
+                    font-weight: bold;
+                }
+
+                #text-2 {
+                    font-size: 25px;
+                    font-weight: 500;
+                    color: black;
+                }
+
+            }
+
+            #am {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: left;
+                padding-right: 100px;
+                border: none;
+                gap: 20px;
+            }
+
+            .ham {
+                height: 500px;
+                width: 500px
+            }
+
+
+        }
+
+        #tej {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            padding-right: 500px;
+            gap: 10px;
+
+            #images {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+
+                img {
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    margin-left: -15px;
+                    border: 2px white solid;
+                }
+
+
+            }
+
+            #ima {
+                font-size: 25px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    #about1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+
+        /* border: 2px black solid; */
+        #feature {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: gray;
+            font-size: 20px;
+        }
+
+        #logos {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+
+            img {
+                width: 150px;
+                height: 30px;
+            }
+        }
+    }
+
+    #work {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 10px 300px;
+
+        #wor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+
+
+            #text-1 {
+                font-size: 30px;
+                color: orange;
+
+            }
+
+
+
+
+            #text-2 {
+                font-size: 40px;
+                font-weight: bold;
+            }
+        }
+
+        #details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            gap: 120px;
+
+            #detail1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 280px;
+
+                #about4 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    align-items: start;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    gap: 20px;
+
+                    #num {
+                        font-size: 70px;
+                        font-weight: bold;
+                        color: rgb(213, 204, 204);
+                    }
+
+                    #heading {
+                        font-size: 30px;
+                        font-weight: bold;
+
+                    }
+
+                    #description {
+                        font-size: 18px;
+                        color: rgb(95, 86, 86);
+                        width: 520px;
+                    }
+                }
+
+                #image2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 350px;
+                    width: 350px;
+                    border-radius: 50%;
+                    background: radial-gradient(rgba(224, 177, 90, 0.3) 50%, rgba(216, 165, 71, 0.152) 50%);
+
+
+                    img {
+                        height: 400px;
+                        width: 200px;
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+
+
+    #mealhead {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 20px 20px;
+
+        .meal {
+            font-size: 20px;
+            color: orange;
+        }
+
+        .ai {
+            font-size: 50px;
+            font-weight: bold;
+
+
+        }
+    }
+
+    #three-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 50px;
+        gap: 30px;
+        background-color: whitesmoke;
+
+        .card {
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            background-color: white;
+
+
+
+            img {
+                width: 320px;
+                height: 250px;
+                background-color: rgb(235, 232, 232);
+            }
+
+            .card-mat {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                padding: 20px 30px;
+                gap: 15px;
+
+
+                #vag {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+                .veg {
+                    background-color: rgb(10, 179, 10);
+                    border-radius: 20px;
+                    color: white;
+                    padding: 5px 20px;
+                }
+
+                #japan {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+            }
+
+                
+            }
+        }
+
+        #list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 10 px;
+            border-radius: 5px;
+            padding: 110px 30px;
+
+
+            #words-container {
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            #word {
+                font-size: 20px;
+                gap: 20px;
+                padding: 40px 10px;
+
+                .words {
+                    font-size: 30px;
+                    gap: 50px;
+                }
+            }
+
+        }
+
+    }
+
+    #recipes {
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: orange;
+        text-decoration: underline;
+        padding: 10px 500px;
+
+
+
+    }
+
+    #ora {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #fdf2e9;
+
+
+        #half {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            padding: 50px 10px;
+            gap: 90px;
+
+            #testi {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                padding: 10px 10px;
+                gap: 30px;
+
+                #test {
+                    font-size: 40px;
+                    color: orange;
+                }
+
+                #try {
+                    font-size: 60px;
+                    font-weight: bold;
+                }
+
+            }
+
+            #gid {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 80px;
+
+                #grid {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+
+                    #dave {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: start;
+                        border: 100px;
+                        gap: 20px;
+
+                        img {
+                            height: 50px;
+                            width: 50px;
+                            border-radius: 50%;
+                            margin-left: -15px;
+                            border: 2px white solid;
+
+                        }
+
+                    }
+
+                    #text {
+                        font-size: 20px;
+                        color: grey;
+                    }
+
+                    #name {
+                        font-size: 15px;
+                        color: grey;
+
+                    }
+
+                }
+
+
+                #ben {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    gap: 20px;
+
+                    img {
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50%;
+                        margin-left: -15px;
+                        border: 2px white solid;
+
+                    }
+
+                }
+
+                #text {
+                    font-size: 20px;
+                    color: grey;
+                }
+
+                #name {
+                    font-size: 15px;
+                    color: grey;
+
+                }
+
+            }
+
+            #grid1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+
+                #steve {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    gap: 20px;
+
+                    img {
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50%;
+                        margin-left: -15px;
+                        border: 2px white solid;
+
+                    }
+
+
+
+                    #text {
+                        font-size: 20px;
+                        color: grey;
+                    }
+
+                    #name {
+                        font-size: 15px;
+                        color: grey;
+
+                    }
+                }
+
+                #Han {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    gap: 20px;
+
+                    img {
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50%;
+                        margin-left: -15px;
+                        border: 2px white solid;
+
+                    }
+
+
+
+                    #text {
+                        font-size: 20px;
+                        color: grey;
+                    }
+
+                    #name {
+                        font-size: 15px;
+                        color: grey;
+
+                    }
+                }
+
+
+
+
+            }
+        }
+
+        #pictures1 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+
+            #pics {
+                height: 200px;
+                width: 200px;
+                transform-style: preserve-3d;
+                transition: transform 10s;
+
+
+                img:hover {
+                    transform: scale(1.05);
+                }
+
+            }
+
+        }
+
+
+    }
+
+    #pre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    #pri {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+
+
+        #price {
+            font-size: 20px;
+            font-weight: bold;
+            color: orange;
+        }
+
+        #eating {
+            font-size: 50px;
+            font-weight: bold;
+        }
+    }
+
+    #boy {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 50px;
+        gap: 100px;
+
+
+
+
+        #start {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 40px;
+            gap: 20px;
+            border-radius: 10px;
+            background-color: #fdf2e9;
+
+
+            #art {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                #starter {
+                    font-size: 25px;
+                    color: orange;
+
+                }
+
+                #dol {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: start;
+                    justify-content: center;
+                    font-size: 50px;
+                    font-weight: bold;
+
+                    #lar {
+                        font-size: 25px;
+                        padding: 20px 1px;
+                    }
+
+                    #ni {
+                        font-size: 45px;
+                    }
+
+
+
+
+
+                }
+
+                #month {
+                    font-size: 15px;
+                    color: grey;
+                }
+
+
+
+            }
+
+            #meals {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                font-size: 20px;
+                gap: 20px;
+
+
+
+                #meal1 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                    gap: 30px;
+
+                }
+
+                #order {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                }
+
+                #delivery {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                }
+
+                #empty {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                }
+            }
+
+            #start1 {
+                background-color: orange;
+                color: white;
+                font-size: 25px;
+                border: none;
+                gap: 20px;
+                border-radius: 10px;
+                padding: 15px;
+            }
+        }
+
+        #para {
+            font-size: 15px;
+            color: grey;
+        }
+    }
+
+    #about {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        #cook1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            width: 300px;
+            gap: 15px;
+
+            #image1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    height: 500px;
+                    width: 200px;
+
+
+                }
+            }
+
+        }
+
+        #h2 {
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        #subscription {
+            font-size: 20px;
+            color: gray;
+        }
+    }
+
+    #about2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 68, 0, 0.664);
+        border-radius: 10px;
+        box-shadow: 2px 3px 10px black;
+        overflow: hidden;
+
+        #registration {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 700px;
+            height: 500px;
+            gap: 30px;
+
+            #first {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+
+                #free {
+                    font-weight: bold;
+                    font-size: 50px;
+                    padding: 10px;
+                }
+
+                #tasty {
+                    font-size: 20px;
+                    padding: 0px 40px;
+                }
+            }
+
+            #box {
+                form {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: center;
+                    justify-content: center;
+                    gap: 30px;
+
+                    padding: 50px 100px;
+                }
+
+                #small {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    input {
+                        height: 30px;
+                        width: 200px;
+                        border-radius: 10px;
+                        border: none;
+                    }
+
+                    select {
+                        height: 30px;
+                        width: 200px;
+                        border-radius: 10px;
+                        border: none;
+                    }
+                }
+
+                button {
+                    color: white;
+                    background-color: rgb(65, 12, 12);
+                    padding: 15px;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+
+        }
+
+        #girl {
+
+            img {
+                height: 510px;
+                width: 500px;
+            }
+        }
+    }
+
+    #result {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+        b {
+            font-size: 23px;
+        }
+
+        #r1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 25px;
+
+            p {
+                color: gray;
+                width: 180px;
+            }
+
+            #r2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: start;
+                gap: 10px;
+                font-size: 30px;
+                color: gray;
+
+                p {
+                    color: gray;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        #r3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 25px;
+
+            p {
+                font-size: 15px;
+                color: gray;
+                width: 180px;
+            }
+        }
+
+        #r4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            padding: 20px;
+
+            p {
+                color: gray;
+                font-size: 15px;
+            }
+        }
+    }
+}
